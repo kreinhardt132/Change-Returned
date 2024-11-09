@@ -24,3 +24,8 @@ To install the repository from the website follow these steps:
 4. Go to the downloaded file and extract all
 5. compile main.cpp with a c++ compiler
 6. Run compiled program
+
+## How to use the program
+After compiling the program and running it, the program will ask for a number.
+Input a number with up to two decimal places and press enter. After that the answer
+will display.
