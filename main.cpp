@@ -33,7 +33,7 @@ int main()
     float cents = 0;
 
     //Ask the user for the amount of money
-    cout << "Please enter the amount of money: ";
+    cout << "Please enter the amount of money: $";
     cin >> total;
 
     //Round the total amount down to seperate the dollar amount and
