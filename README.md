@@ -12,3 +12,15 @@ cents by dividing by 25 for quarters, 10 for dimes,
 and 1 for pennies.
 
 ## How to install
+To install the repository from a terminal follow these steps:
+1. Open a terminal and run git clone https://github.com/kreinhardt132/Change-Returned.git
+2. Go into the repository and compile main.cpp with g++ or another c++ compiler
+3. Run compiled program
+
+To install the repository from the website follow these steps:
+1. Go to the website https://github.com/kreinhardt132/Change-Returned
+2. Click on the "<>Code " box
+3. Click on the Download ZIP
+4. Go to the downloaded file and extract all
+5. compile main.cpp with a c++ compiler
+6. Run compiled program
