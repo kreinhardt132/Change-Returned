@@ -12,7 +12,7 @@ cents by dividing by 25 for quarters, 10 for dimes,
 and 1 for pennies.
 
 ## How to install
-The libraries need for the program are iostream and cmath. To install the repository from a
+The libraries needed for the program are iostream and cmath. To install the repository from a
 terminal follow these steps:
 1. Open a terminal and run git clone https://github.com/kreinhardt132/Change-Returned.git
 2. Go into the repository and compile main.cpp with g++ or another c++ compiler
