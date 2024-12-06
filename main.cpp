@@ -46,6 +46,25 @@ int main()
     //Round down the total to get the amount of whole dollars
     total = floor(total);
 
+    //Call moneyCounter to get the amount of 100 dollar bills
+    count = moneyCounter(total, 10);
+    total -= counter*100;
+    court << counter << "-$100 bill" << endl;
+
+    //Call moneyCounter to get the amount of 50 dollar bills
+    counter = moneyCounter(total, 50);
+    //Subtract the amount of money in 50 dollar bills from the total
+    total -= counter*50;
+    //Out put the amount of 50 dollar bills
+    cout << counter  << "-$50 bill"<< endl;
+
+    //Call moneyCounter to get the amount of 20 dollar bills
+    counter = moneyCounter(total, 20);
+    //Subtract the amount of money in 20 dollar bills from the total
+    total -= counter*20;
+    //Out put the amount of 20 dollar bills
+    cout << counter  << "-$20 bill"<< endl;
+	
     //Call moneyCounter to get the amount of 10 dollar bills
     counter = moneyCounter(total, 10);
     //Subtract the amount of money in 10 dollar bills from the total
@@ -68,6 +87,11 @@ int main()
     counter = moneyCounter(cents, 25);
     cents -= counter*25;
     cout << counter << "-quarters" <<endl;
+
+    //Do it for nickels
+    counter = moneyCounter(cents, 5);
+    cents -= counter*5;
+    court << counter << "-nickels" << endl;
 
     //Do it for dimes
     counter = moneyCounter(cents, 10);
